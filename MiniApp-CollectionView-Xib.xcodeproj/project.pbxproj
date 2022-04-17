@@ -15,6 +15,7 @@
 		955F075E280BB4C300C4B538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955F075C280BB4C300C4B538 /* LaunchScreen.storyboard */; };
 		955F0767280BB50100C4B538 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955F0765280BB50100C4B538 /* CollectionViewCell.swift */; };
 		955F0768280BB50100C4B538 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 955F0766280BB50100C4B538 /* CollectionViewCell.xib */; };
+		955F076A280BD86600C4B538 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955F0769280BD86600C4B538 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		955F075F280BB4C300C4B538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		955F0765280BB50100C4B538 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		955F0766280BB50100C4B538 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		955F0769280BD86600C4B538 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				955F0751280BB4C200C4B538 /* AppDelegate.swift */,
 				955F0753280BB4C200C4B538 /* SceneDelegate.swift */,
 				955F0755280BB4C200C4B538 /* ViewController.swift */,
+				955F0769280BD86600C4B538 /* NextViewController.swift */,
 				955F0757280BB4C200C4B538 /* Main.storyboard */,
 				955F075A280BB4C300C4B538 /* Assets.xcassets */,
 				955F075C280BB4C300C4B538 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955F076A280BD86600C4B538 /* NextViewController.swift in Sources */,
 				955F0756280BB4C200C4B538 /* ViewController.swift in Sources */,
 				955F0752280BB4C200C4B538 /* AppDelegate.swift in Sources */,
 				955F0767280BB50100C4B538 /* CollectionViewCell.swift in Sources */,
