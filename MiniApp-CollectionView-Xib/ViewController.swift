@@ -16,13 +16,11 @@ class ViewController: UIViewController {
     var cellWidth: CGFloat!
     var cellHeight: CGFloat!
     var cellOffset: CGFloat!
-    var navHeight: CGFloat!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         viewWidth = view.frame.width
         viewHeight = view.frame.height
-        navHeight = self.navigationController?.navigationBar.frame.size.height
         horizontalCollectionView.delegate = self
         horizontalCollectionView.dataSource = self
         let nib = UINib(nibName: "CollectionViewCell", bundle: .main)
@@ -60,7 +58,7 @@ extension ViewController: UICollectionViewDelegate,UICollectionViewDataSource,UI
 
     // 余白の調整
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: -navHeight,left: cellOffset / 2,bottom: 0,right: cellOffset / 2)
+        return UIEdgeInsets(top: 0,left: cellOffset / 2,bottom: 0,right: cellOffset / 2)
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         performSegue(withIdentifier: "NextVCSegue", sender: nil)
